@@ -1,14 +1,8 @@
 # Fundamentos-de-PHP
 Conjunto de Librerias de PHP, para mostrar informacion. Se utiliza HTML, PHP, BOOSTRAP5. La mayoria son Clases que permiten trabajar mucho mas rapido la programacion
 
-Capítulos: 
-    
-    Capítulo 1: Inicio de los ejemplos
-    <b>info:</b> Test de la Información del Localhost.
-    <b>Mundo:</b> Mi Primer Programa "Hola Mundo".
-        
 
-Librerías
+# Librerías:
 
 Boostrap : Clase que permite que tiene los codigos de Boostrap para los encabezados, pie de pagina y alertas.
 
@@ -21,4 +15,14 @@ Formas : Clase de 3ero. Kohana para el tratamiento de los Formularios.
 HTML: Clase de 3ero. Kohana para el tratamiento del HTML.
 
 Informacion : Clase que muestra la informacion del servidor localhost, librerias y paquetes instalados.
+
+# Capítulos No. 1: Inicio de los ejemplos
+  
+  <b>info:</b> Test de la Información del Localhost.
+  <b>Mundo:</b> Mi Primer Programa "Hola Mundo".
+    
+# Capítulo 2: 
+  <b>01_simple.html</b> : Es un archivo HTML y no php...
+  <b>02_simple.php</b>  : Ejemplo simple.
+  <b>03_ambitos.php</b> : Ambito de las variables Fuera y dentro de las funciones.
 
