@@ -1,0 +1,92 @@
+*,  
+:before
+:after {
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: transparent;
+}
+
+
+/* Ajustes del inicio y cuerpo del programa */      
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 14px;
+}
+
+/* Ajustes del Cuerpo, espacio del Top y del bottom. */
+body {
+    padding-top: 75px; /* Por defecto 60px*/
+    padding-bottom: 695px; /* Por defecto 40px    745px*/
+
+
+    
+ /* Color Gris del fondo de las paginas */
+  background-color: rgba(0,0,0,.01) !important;
+    
+   
+}
+
+/* Linea roja de los titulos de las paginas*/
+hr {
+    height: 1px;
+    color:  #ED1E24;
+    border-color: #ED1E24;
+}
+
+
+
+
+
+/*
+* Tablas: Permite que el color de los titulos de la tabla se mantenga en negro a
+*        a pesar que se pase el mouseover debido al hover de Bootstrap.
+*/
+ .thead-dark {
+    background-color: rgb(0, 0, 0);
+    color: white;
+ }
+ 
+ 
+
+ 
+  
+
+/* Colorres de las flechas de desplazamiento de los browser */
+.flecha-azul {
+    color: #007fff;
+}
+
+.flecha-gris {
+    color: grey;
+}
+ 
+
+.ROJO {
+
+	font-size: 15px;
+        color: #FF0000;
+        font-weight: bold;
+}
+.AZUL {
+	font-size: 15px;
+        color: #5eff00;
+	font-weight: bold;
+
+}
+
+
+div.mensaje_informacion {
+    font-size: 10px;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    text-align: justify;
+    border: 1px solid #ffc000;
+    background-color: #fffed6;
+    color: #8b4513;
+    padding-left: 10px;
+    padding-right: 10px;
+}
