@@ -3,23 +3,23 @@ Conjunto de Librerias de PHP, para mostrar informacion. Se utiliza HTML, PHP, BO
 
 
 ## Librerías:
+```
+class.php             : Autorecarga de las clases en los proyectos.
 
-class.php         : autorecarga de las clases en los proyectos.
+Boostrap.php          : Clase que permite que tiene los codigos de Boostrap para los encabezados, pie de pagina y alertas.
 
-Boostrap.php      : Clase que permite que tiene los codigos de Boostrap para los encabezados, pie de pagina y alertas.
+Configuracion.php     : Clase que tiene la configuracion del doctype de HTML y las librerias que se cargan de boostrap.
 
-Configuracion.php : Clase que tiene la configuracion del doctype de HTML y las librerias que se cargan de boostrap.
+Fechas.php            : Clase que contiene la clase del tratamiento de Fechas.
 
-Fechas.php        : Clase que contiene la clase del tratamiento de Fechas.
+Formas.php            : Clase de 3ero. Kohana para el tratamiento de los Formularios.
 
-Formas.php        : Clase de 3ero. Kohana para el tratamiento de los Formularios.
+HTML.php              : Clase de 3ero. Kohana para el tratamiento del HTML.
 
-HTML.php          : Clase de 3ero. Kohana para el tratamiento del HTML.
+Informacion.php       : Clase que muestra la informacion del servidor localhost, librerias y paquetes instalados.
 
-Informacion.php   : Clase que muestra la informacion del servidor localhost, librerias y paquetes instalados.
-
-Operadores.php    : Clase de los operqadores Aritmeticos.
-
+Operadores.php        : Clase de los operqadores Aritmeticos.
+```
 
 ### Capítulos No. 1: Inicio de los ejemplos 
   ```
