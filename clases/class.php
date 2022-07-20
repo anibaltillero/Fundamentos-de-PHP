@@ -25,3 +25,5 @@ include '../clases/Tarjetas.php';
 
 include '../clases/Fechas.php';
 
+include_once '../clases/Operadores.php';
+
