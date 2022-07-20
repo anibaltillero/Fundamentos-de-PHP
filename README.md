@@ -16,13 +16,14 @@ HTML: Clase de 3ero. Kohana para el tratamiento del HTML.
 
 Informacion : Clase que muestra la informacion del servidor localhost, librerias y paquetes instalados.
 
-## Capítulos No. 1: Inicio de los ejemplos
+#Capítulos No. 1: Inicio de los ejemplos
   
   **info**  : Test de la Información del Localhost.
   
   **Mundo** : Mi Primer Programa "Hola Mundo".
-```    
-## Capítulo 2: 
+    
+#Capítulo 2: 
+
   **01_simple.html**  : Es un archivo HTML y no php.
   
   **02_simple.php**   : Ejemplo simple.
@@ -36,5 +37,4 @@ Informacion : Clase que muestra la informacion del servidor localhost, librerias
   **07_operadores.php**: Implentación de operadores Aritméticos.
   
   **08_asignaciones.php**: Operadores de Asignación.
-  ```
   
