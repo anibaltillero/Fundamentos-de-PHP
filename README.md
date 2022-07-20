@@ -18,23 +18,23 @@ Informacion : Clase que muestra la informacion del servidor localhost, librerias
 
 ### Capítulos No. 1: Inicio de los ejemplos 
   ```
-  __info__ : Test de la Información del Localhost.
+  info.php            : Test de la Información del Localhost.
   
-  Mundo : Mi Primer Programa "Hola Mundo".
+  Mundo.php           : Mi Primer Programa "Hola Mundo".
   ```  
 ### Capítulo 2:  
-
-  __01_simple.html__  : Es un archivo HTML y no php.
+ ```
+  01_simple.html      : Es un archivo HTML y no php.
   
-  **02_simple.php**   : Ejemplo simple.
+  02_simple.php       : Ejemplo simple.
   
-  **03_ambitos.php**  : Ambito de las variables Fuera y dentro de las funciones.
+  03_ambitos.php      : Ambito de las variables Fuera y dentro de las funciones.
   
-  **05_estaticas.php**: Implementación de valores estaticos.
+  05_estaticas.php    : Implementación de valores estaticos.
   
-  **06_constantes.php**: Definicion de constantes.
+  06_constantes.php   : Definicion de constantes.
   
-  **07_operadores.php**: Implentación de operadores Aritméticos.
+  07_operadores.php   : Implentación de operadores Aritméticos.
   
-  **08_asignaciones.php**: Operadores de Asignación.
-  
+  08_asignaciones.php : Operadores de Asignación.
+   ```
