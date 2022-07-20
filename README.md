@@ -18,9 +18,9 @@ Informacion : Clase que muestra la informacion del servidor localhost, librerias
 
 ### Capítulos No. 1: Inicio de los ejemplos 
   ```
-  **info**  : Test de la Información del Localhost.
+  __info__ : Test de la Información del Localhost.
   
-  **Mundo** : Mi Primer Programa "Hola Mundo".
+  Mundo : Mi Primer Programa "Hola Mundo".
   ```  
 ### Capítulo 2:  
 
