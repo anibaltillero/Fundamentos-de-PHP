@@ -5,9 +5,9 @@
  * 
  *     Descripcion  : Convertir la fecha formato espa�ol a formato Base de datos
  *       @author   : Anibal G. Tillero O.
- *  Date created    : 01/07/2022            Date updated: 01/07/2022
+ *  Date created    : 01/12/2016            Date updated: 01/12/2016
  *       Docs By    : Anibal G. Tillero O.
- *     @copyright  : (c) 2022 by Ing Anibal Tillero.
+ *     @copyright  : (c) 2016 by MPPRE.
  * -----------------------------------------------------------------------------
  */
 class Fechas {

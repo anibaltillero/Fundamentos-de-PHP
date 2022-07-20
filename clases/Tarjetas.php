@@ -87,7 +87,7 @@
     * * @param type $bgColor  Color de Fondo de la Tarjeta.
     */
           
-    public static function Tablero($titulo = '' , $valores ='',  $faIcons= NULL, $bgColor = 'bg-primary' ) {
+    public static function Tablero($titulo = '' , $valores ='',  $faIcons= NULL, $bgColor = 'primary' ) {
   
             
         
@@ -103,7 +103,7 @@
     
     
     echo '<div class="col-xl-3 col-sm-6 col-12 p-2">';                   
-     echo '<div class="card shadow rounded bg-opacity-100 border-5 ' . $bgColor . '">';
+     echo '<div class="card shadow rounded bg-opacity-75 border-5 ' . $bgColor . '">';
                       
          echo '<div class="row">';
              echo '<div class="col-3 align-self-center">';

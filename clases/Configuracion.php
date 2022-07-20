@@ -4,11 +4,11 @@
  *           Descripcion: configuracion
  * 
  *                 Clase: configuracion
- *       Fecha creacion : 01/01/2022 08:19:38 PM
- *  Fecha actualizacion : 01/01/202208:19:38 PM
+ *       Fecha creacion : 01/01/2020 08:19:38 PM
+ *  Fecha actualizacion : 01/01/2020 08:19:38 PM
  *             @author  : Ing. Anibal Tillero
  *      Documentado por : Ing. Anibal Tillero
- *          @CopyLeft   : 2022 by Ing. Anibal Tillero
+ *          @CopyLeft   : 2020 by Ing. Anibal Tillero
  * -----------------------------------------------------------------------------
  */
 
