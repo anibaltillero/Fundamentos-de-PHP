@@ -24,7 +24,7 @@ Informacion : Clase que muestra la informacion del servidor localhost, librerias
   ```  
 ### Capítulo 2:  
 
-  **__01_simple.html__**  : Es un archivo HTML y no php.
+  __01_simple.html__  : Es un archivo HTML y no php.
   
   **02_simple.php**   : Ejemplo simple.
   
