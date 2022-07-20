@@ -18,10 +18,10 @@ Informacion : Clase que muestra la informacion del servidor localhost, librerias
 
 # Capítulos No. 1: Inicio de los ejemplos
   
-  <b>info:</b> Test de la Información del Localhost.
-  <b>Mundo:</b> Mi Primer Programa "Hola Mundo".
+  **info**  : Test de la Información del Localhost.
+  **Mundo** : Mi Primer Programa "Hola Mundo".
     
 # Capítulo 2: 
-  <b>01_simple.html</b> : Es un archivo HTML y no php...
-  <b>02_simple.php</b>  :Ejemplo simple.
-  <b>03_ambitos.php</b> : Ambito de las variables Fuera y dentro de las funciones 
+  **01_simple.html**  : Es un archivo HTML y no php...
+  **02_simple.php**   : Ejemplo simple.
+  **03_ambitos.php**  : Ambito de las variables Fuera y dentro de las funciones 
