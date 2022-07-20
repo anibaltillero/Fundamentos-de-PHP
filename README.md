@@ -21,7 +21,7 @@ Informacion : Clase que muestra la informacion del servidor localhost, librerias
   **info**  : Test de la Información del Localhost.
   
   **Mundo** : Mi Primer Programa "Hola Mundo".
-    
+```    
 ## Capítulo 2: 
   **01_simple.html**  : Es un archivo HTML y no php.
   
@@ -30,4 +30,11 @@ Informacion : Clase que muestra la informacion del servidor localhost, librerias
   **03_ambitos.php**  : Ambito de las variables Fuera y dentro de las funciones.
   
   **05_estaticas.php**: Implementación de valores estaticos.
+  
+  **06_constantes.php**: Definicion de constantes.
+  
+  **07_operadores.php**: Implentación de operadores Aritméticos.
+  
+  **08_asignaciones.php**: Operadores de Asignación.
+  ```
   
