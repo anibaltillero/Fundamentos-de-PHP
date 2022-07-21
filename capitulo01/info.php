@@ -8,7 +8,7 @@
  *  Fecha actualizacion : 01/08/2022 11:51:46 AM
  *             @author  : Ing. Anibal Tillero
  *      Documentado por : Ing. Anibal Tillero
- *          @CopyLeft   : 2022 by 
+ *          @CopyLeft   : 2022 by Ing. Anibal Tillero
  */
 //* ----------------------------------------------------------------------------
 //* CARGAR LAS CLASES 
