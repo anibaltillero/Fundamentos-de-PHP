@@ -18,6 +18,7 @@ class Operadores {
 
     private static $_resultado;
     private static $_rsAsignacion;
+    private static $_valor;
 
     /**
      *  Descripcion: 
@@ -99,29 +100,35 @@ class Operadores {
      */
     public static function setComparacion($n1, $n2) {
 
+        self::$_valor = '';
+        
+        
         if ($n1 == $n2) {
-            echo "$n1 y $n2 son iguales <br/>";
+            self::$_valor = "$n1 y $n2 son iguales <br/>";
         }
 
         if ($n1 === $n2) {
-            echo "$n1 y $n2 son IDENTICAS y del Mismo tipo <br/>";
+            self::$_valor = "$n1 y $n2 son IDENTICAS y del Mismo tipo <br/>";
         }
 
         if ($n1 !== $n2) {
-            echo "$n1 y $n2 No son IDENTICAS, O Ni del Mismo tipo <br/>";
+            self::$_valor = "$n1 y $n2 No son IDENTICAS, O Ni del Mismo tipo <br/>";
         }
 
         if ($n1 != $n2) {
-            echo "$n1 y $n2 no son iguales <br/>";
+            self::$_valor = "$n1 y $n2 no son iguales <br/>";
         }
 
         if ($n1 > $n2) {
-            echo "El Numero $n1 es mayor que $n2 <br/>";
+            self::$_valor = "El Numero $n1 es mayor que $n2 <br/>";
         }
 
         if ($n1 < $n2) {
-            echo "El numero $n1 es Menor que $n2 <br />";
+            self::$_valor = "El numero $n1 es Menor que $n2 <br />";
         }
+        
+        
+        return self::$_valor;    
     }
 
 }
