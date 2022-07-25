@@ -16,14 +16,15 @@ include '../clases/Configuracion.php';
 
 include '../clases/Bootstrap.php';
 
-include '../clases/HTML.php';
-
-
 include '../clases/Formularios.php';
+
+include '../clases/HTML.php';
 
 include '../clases/Tarjetas.php';
 
 include '../clases/Fechas.php';
 
 include_once '../clases/Operadores.php';
+
+include_once '../clases/Cadenas.php';
 

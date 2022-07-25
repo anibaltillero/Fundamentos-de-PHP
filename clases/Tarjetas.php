@@ -62,15 +62,12 @@
     * @uses    HTML::attributes
     */
          
-   public static function Titulos($text = NULL,  $subtitulo = NULL ,   array $attributes = NULL) {
+   public static function Titulos($text = NULL,  $subtitulo = NULL ) {
          
         
     echo '<div class="row">';
     echo '  <div class="col-12 mt-3 mb-1">';
-    echo '    <h4'  . HTML::attributes($attributes)  . '>' . strtoupper( $text ) . '</h4>';
-    //echo '    <h4>' . strtoupper( $text ) . '</h4>';
-    
-    
+    echo '<h4>'. strtoupper($text).'</h4>';
     echo '    <p>' . $subtitulo . '</p>';
     echo '  </div>';
     echo '</div>';
@@ -121,29 +118,7 @@
 echo '</div>';               
              
              
-             
-             
-//      
-//    echo '<div class="col-xl-3 col-sm-6 col-12 p-2">';
-//        echo '<div>';
-//          echo '<div class="card-content card shadow rounded ' . $bgColor . '">';
-//            echo '<div class="card-body">';
-//              echo '<div class="media d-flex">';
-//                
-//                echo '<div class="align-self-center">';
-//                  echo '<i class="' . $fontawesome . ' primary font-large-2 float-left"></i>';
-//                echo '</div>';
-//                
-//                echo '<div class="media-body text-end">';
-//                  echo '<h3>' . $valores .'</h3>';
-//                  echo '<span>' . $titulo . '</span>';
-//                echo '</div>';
-//              
-//                echo '</div>';
-//            echo '</div>';
-//          echo '</div>';
-//      echo '</div>';
-//      echo '</div> ';
+     
          
    }
    

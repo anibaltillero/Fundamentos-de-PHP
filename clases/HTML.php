@@ -459,7 +459,20 @@ public static function setEspacio($ancho = '92%' )  {
 }
 
 
-
+ public static function MY_Titulos($text = NULL,  array $attributes = NULL) {
+         
+        
+    echo '<h4 '.HTML::attributes($attributes).' >'. strtoupper($text).'</h4>';
+    
+     
+//    echo '<div class="row">';
+//    echo '  <div class="col-12 mt-3 mb-1">';
+//    echo '<h4'.HTML::attributes($attributes).'>'. strtoupper($text).'</h4>';
+//    echo '    <p>' . $subtitulo . '</p>';
+//    echo '  </div>';
+//    echo '</div>';
+    
+   }
         
         
 }
