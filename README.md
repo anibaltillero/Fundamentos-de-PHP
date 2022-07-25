@@ -12,13 +12,17 @@ Configuracion.php     : Clase que tiene la configuracion del doctype de HTML y l
 
 Fechas.php            : Clase que contiene la clase del tratamiento de Fechas.
 
-Formas.php            : Clase de 3ero. Kohana para el tratamiento de los Formularios.
+Formularios.php       : Clase de 3ero. Kohana para el tratamiento de los Formularios.
 
-HTML.php              : Clase de 3ero. Kohana para el tratamiento del HTML.
+HTML.php              : Clase de 3ero. Kohana para el tratamiento del HTML. (Actualizado)
 
 Informacion.php       : Clase que muestra la informacion del servidor localhost, librerias y paquetes instalados.
 
-Operadores.php        : Clase de los operqadores Aritmeticos.
+Operadores.php        : Clase de los operadores Aritméticos.
+
+Cadenas.php           : Clase para el tratamiento de cadenas.
+
+Tarjetas.php          : Clase para mostrar la Tarjeta (Card) de Boostrap 5.0
 ```
 
 ### Capítulos No. 1: Inicio de los ejemplos 
@@ -42,4 +46,15 @@ Operadores.php        : Clase de los operqadores Aritmeticos.
   07_operadores.php   : Implentación de operadores Aritméticos.
   
   08_asignaciones.php : Operadores de Asignación.
+  
+  09_comparaciones.php : Comparaciones.
+  
+  10_logicos.php      : Logicos.
+  
+  11_cancatenar.php   : Concaternar cadenas.
+  
+  12_strlen.php       : Longitud de una cadena.
+  
+  13_strstr.php       : Encuentra la primera aparación en una cadena.
+  
    ```
