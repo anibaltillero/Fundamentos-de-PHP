@@ -1,5 +1,5 @@
 # Fundamentos-de-PHP
-Conjunto de Librerias de PHP, para mostrar informacion. Se utiliza HTML, PHP, BOOSTRAP5. La mayoria son Clases que permiten trabajar mucho mas rapido la programacion
+Conjunto de Librerias de PHP, para mostrar información. Se utiliza HTML5, PHP 7.2 o supoerior, BOOSTRAP 5. La mayoria son Clases que permiten trabajar mucho mas rápido la programación. Excelente para principiantes.
 
 
 ## Librerías:
