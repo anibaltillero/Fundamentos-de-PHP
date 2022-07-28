@@ -1,6 +1,6 @@
 <?php
 /**
- *          Descripcion :  Encuentra l aprimera aparacion en un string
+ *          Descripcion :  
  *  
  *          Controlador : 08_asignacion.php     Encoding: UTF-8
  *       Fecha creacion : 23/07/2022 05:03:04 PM
@@ -20,7 +20,7 @@ include '../clases/class.php';
 //* ----------------------------------------------------------------------------
 //* DECLARACION DE VARIABLES
 //* ----------------------------------------------------------------------------
-define('TITULO', 'Capitulo 02: Muestra una cadena a partir de la aparicion de un caracter');
+define('TITULO', 'Capitulo 02: ');
 ?>
 <?php Configuracion::getDocTypeHTML() ?>
 <head>
@@ -45,28 +45,15 @@ define('TITULO', 'Capitulo 02: Muestra una cadena a partir de la aparicion de un
         <div class="col col-md-12" >
 
             <div class="container">           
-                <section id="minimal-statistics" class="primary">
+                <section id="minimal-statistics">
 
-                  
-                 <?php  $c1 = 'dominio@gmail.com'; ?>
-                       
-                  <?php Tarjetas::Titulos("La Cadena es: <b>$c1</b>", "se necesita mostrar a partir del @", array( "class"=>"text-success") ) ?>       
-                    
                   <?php
-                    
-                                       
-                          
-                   Bootstrap::setAlertas( Cadenas::AparicionEnLaCadena($c1, '@') );
-               
-                   Bootstrap::getAlertas(Bootstrap::ALERTA_INFO, TRUE );
-                    
 
-                   
-                   
 
-                  ?>
-                    
-                 
+
+
+
+                  ?>  
                 </section>
             </div>
         </div>    

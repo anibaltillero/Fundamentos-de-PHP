@@ -1,10 +1,10 @@
 <?php
 /**
- *          Descripcion :  Encuentra l aprimera aparacion en un string
+ *          Descripcion :  Indicar la Posicion del Caracter en la cadena
  *  
- *          Controlador : 08_asignacion.php     Encoding: UTF-8
- *       Fecha creacion : 23/07/2022 05:03:04 PM
- *  Fecha actualizacion : 23/07/2022 05:03:04 PM
+ *          Controlador : 14_strpos.php     Encoding: UTF-8
+ *       Fecha creacion : 27/07/2022 05:03:04 PM
+ *  Fecha actualizacion : 27/07/2022 05:03:04 PM
  *             @author  : Ing. Anibal Tillero 
  *      Documentado por : Ing. Anibal Tillero 
  *          @CopyLeft   : 2022 by Ing. Anibal Tillero     
@@ -20,7 +20,7 @@ include '../clases/class.php';
 //* ----------------------------------------------------------------------------
 //* DECLARACION DE VARIABLES
 //* ----------------------------------------------------------------------------
-define('TITULO', 'Capitulo 02: Muestra una cadena a partir de la aparicion de un caracter');
+define('TITULO', 'Capitulo 02: Indicar la posición del Caracater en la cadena');
 ?>
 <?php Configuracion::getDocTypeHTML() ?>
 <head>
@@ -46,23 +46,17 @@ define('TITULO', 'Capitulo 02: Muestra una cadena a partir de la aparicion de un
 
             <div class="container">           
                 <section id="minimal-statistics" class="primary">
-
+                    <span>
                   
-                 <?php  $c1 = 'dominio@gmail.com'; ?>
+                 <?php  
+                 
+                 $c1 = 'dominio@gmail.com'; 
                        
-                  <?php Tarjetas::Titulos("La Cadena es: <b>$c1</b>", "se necesita mostrar a partir del @", array( "class"=>"text-success") ) ?>       
-                    
-                  <?php
-                    
-                                       
-                          
-                   Bootstrap::setAlertas( Cadenas::AparicionEnLaCadena($c1, '@') );
+                   Tarjetas::Titulos("La Cadena es: <b>$c1</b>", "se necesita encontrar la posicion del @", array( "class"=>"text-success") );        
+                
+                   Bootstrap::setAlertas(Cadenas::PosicionEnLaCadena($c1, '@') );
                
                    Bootstrap::getAlertas(Bootstrap::ALERTA_INFO, TRUE );
-                    
-
-                   
-                   
 
                   ?>
                     
