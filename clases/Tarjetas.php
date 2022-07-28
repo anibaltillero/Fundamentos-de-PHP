@@ -62,12 +62,14 @@
     * @uses    HTML::attributes
     */
          
-   public static function Titulos($text = NULL,  $subtitulo = NULL ) {
+   public static function Titulos($text = NULL,  $subtitulo = NULL , array $attributes = NULL  ) {
          
-        
+       
     echo '<div class="row">';
     echo '  <div class="col-12 mt-3 mb-1">';
-    echo '<h4>'. strtoupper($text).'</h4>';
+    echo '<h4 '.HTML::attributes($attributes).'>'.strtoupper($text).'</h4>';
+    
+   // echo '<h4>'. strtoupper($text).'</h4>';
     echo '    <p>' . $subtitulo . '</p>';
     echo '  </div>';
     echo '</div>';
@@ -85,9 +87,6 @@
     */
           
     public static function Tablero($titulo = '' , $valores ='',  $faIcons= NULL, $bgColor = 'primary' ) {
-  
-            
-        
      
      
     if( $faIcons === NULL ){
@@ -95,8 +94,6 @@
     } else {
           $fontawesome = $faIcons ; 
     }
-          
-      
     
     
     echo '<div class="col-xl-3 col-sm-6 col-12 p-2">';                   

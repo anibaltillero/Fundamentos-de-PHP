@@ -90,7 +90,7 @@ class Cadenas {
      */
     public static function AparicionEnLaCadena($texto, $caracter, $logico = FALSE) {
 
-        echo 'Aparicion de un caracter ' . $caracter . ' en una cadena: ' . strstr($texto, $caracter, $logico) . '<br>';
+        return 'Aparicion de un caracter ' . $caracter . ' en una cadena: <b>' . strstr($texto, $caracter, $logico) . '</b><br>';
     }
     
     /**
@@ -103,7 +103,7 @@ class Cadenas {
 
     public static function PosicionEnLaCadena($texto, $caracter) {
 
-        return "La Ubicación del caracter $caracter en la cadena $texto : " . strpos($texto, $caracter) . '<br>';
+        return "La Ubicación del caracter <span class='text-dark'>$caracter</span> en la cadena <span class='text-dark'>$texto</span> es: " . strpos($texto, $caracter) . '<br>';
     }
 
   /**
@@ -114,14 +114,14 @@ class Cadenas {
      */
     public static function ASC($ascii) {
 
-        echo 'El Asc es ' . chr($ascii);
+        return 'El Asc es ' . chr($ascii);
     }
     
     public static function getTablaASC() {
         for ($i = 32; $i <= 126; $i++) 
         {
             $letra = chr($i);
-            print "Ascii nro: $i  su caracter es = $letra <br />";
+            print "Ascii Nro: <span><b>$i</b></span>  su caracter es = <b>$letra</b> <br />";
         }
 
     }
