@@ -51,9 +51,10 @@
    
 
    /**
-    * Creates a form label. Label text is not automatically translated.
-    *
-    *     echo Form::titulo('username', 'Username');
+    * Descripcion: Crea un titulo princiapl con subtitulo y se le puede pasar una arreglo para   .
+    *              para los atributos.
+    *  
+    *     echo Formularios::Titulos('titulo', 'subtitulo', array( "class"=>"text-success") );
     *
     * @param   string  $input      target input
     * @param   string  $text       label text
@@ -68,8 +69,6 @@
     echo '<div class="row">';
     echo '  <div class="col-12 mt-3 mb-1">';
     echo '<h4 '.HTML::attributes($attributes).'>'.strtoupper($text).'</h4>';
-    
-   // echo '<h4>'. strtoupper($text).'</h4>';
     echo '    <p>' . $subtitulo . '</p>';
     echo '  </div>';
     echo '</div>';
@@ -113,14 +112,11 @@
         
     echo '</div>';
 echo '</div>';               
-             
-             
      
          
    }
    
-   
-   
+    
    
    
 

@@ -44,8 +44,8 @@ class Bootstrap {
      */
     public static function NavBarPie() {
         ?>
-        <nav class="navbar fixed-bottom navbar-dark bg-dark">
-            <span class="navbar-brand">Fundamentos de Programacion PHP </span>
+        <nav class="navbar fixed-bottom navbar-dark bg-dark p-0">
+            <span class="navbar-brand">Fundamentos de Programacion PHP</span>
             <span class="navbar-text">© 2022 Ing. Anibal Tillero</span>
         </nav>
         <?php

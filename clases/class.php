@@ -28,3 +28,5 @@ include_once '../clases/Operadores.php';
 
 include_once '../clases/Cadenas.php';
 
+include '../clases/Arreglos.php';
+

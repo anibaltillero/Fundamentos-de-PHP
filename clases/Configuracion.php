@@ -42,14 +42,14 @@ class Configuracion {
     public static function getDocTypeHTML() {
         ?> 
         <!doctype html>
-        <html lang="es" class="h-75">
+        <html lang="es" class="h-100">
         <?php
     }
 
     public static function getDocTypeHTML_Negro() {
         ?> 
             <!doctype html>
-            <html lang="es" class="h-75" style="background-color: #000">
+            <html lang="es" class="h-100 bg-success" style="background-color: #000">
             <?php
         }
 

@@ -19,6 +19,7 @@ class Cadenas {
     private static $_resultado;
    
     
+    
      /**
      * Arreglo con los Nombre de los Estados civiles
      * @var Array
@@ -125,5 +126,15 @@ class Cadenas {
         }
 
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 }
